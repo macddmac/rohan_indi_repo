@@ -230,7 +230,7 @@ public String toString(){
 - gets better and better compared to the other sorts with more elements added 
 ### Selection Sort 
 ```java
--     public static void selectionsort(int arr[])
+    public static void selectionsort(int arr[])
     {
         int n = arr.length;
 
@@ -250,6 +250,7 @@ public String toString(){
             arr[i] = temp;
         }
     }
+
 ```
 - selection sort goes through the array over and over again, "selecting" the smallest integer each time and putting it at the front
 - similar to the insertion sort, this sort has a O(n²) notation
