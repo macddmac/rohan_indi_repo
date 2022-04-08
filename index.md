@@ -250,8 +250,7 @@ public String toString(){
             arr[i] = temp;
         }
     }
-
-```
+```    
 - selection sort goes through the array over and over again, "selecting" the smallest integer each time and putting it at the front
 - similar to the insertion sort, this sort has a O(n²) notation
 - it is fairly slow and gets worse as more and more elements are added as you have to go through the whole thing everytime
