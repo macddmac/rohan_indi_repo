@@ -1,4 +1,4 @@
-## Data Structures Individual Final - Rohan N
+# Data Structures Individual Final - Rohan N
 
 ## Per Week Challenges Code
 
