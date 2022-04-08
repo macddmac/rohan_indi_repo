@@ -1,6 +1,7 @@
 # rohan_indi_repo
 
-## Week 0 Challenges
-1. Create menu with try and catch function
-2. Write a Java Class with Method(s) to swap two numbers and add to Menu.
-3. Write a Java program to print a formatted matrix in ways shown below, add to menu. Arrays and nested loops are fundamental to data structures.
+## Key Learnings 
+1. Create a console menu for user to choose options w/ recursion
+2. Big O notation and the difference in run times between different sorts
+3. Use stacks in order to create a calculator by converting to polish notation 
+4. Various data strcutures that can be used to sort objects in arrays 
