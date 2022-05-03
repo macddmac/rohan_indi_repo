@@ -1,4 +1,84 @@
-# Data Structures Individual Final - Rohan N
+## Study Week 2 Code 
+- [commit](https://github.com/macddmac/rohan_indi_repo/commit/641276b8b1344d520239f6329187ec7f82632f15)
+- Explanation: Uses for loops to multiply matrices 
+```java
+package practice;
+import java.util.Scanner;
+
+public class MatrixMultiplication {
+    public static void main(String[] args) {
+        int i, j, k, rowF, rowS, colF, colS;
+        int first[][] = new int[10][10];
+        int second[][] = new int[10][10];
+        int product[][] = new int[10][10];
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter Rows and Cols of First Matrix");
+        rowF = scanner.nextInt();
+        colF = scanner.nextInt();
+
+        System.out.println("Enter Elements of First Matrix");
+
+        // Input first matrix from user
+        for (i = 0; i < rowF; i++) {
+            for (j = 0; j < colF; j++) {
+                first[i][j] = scanner.nextInt();
+            }
+        }
+
+        System.out.print("The First Matrix is :\n");
+        for (i = 0; i < rowF; i++) {
+            for (j = 0; j < colF; j++) {
+                System.out.print(first[i][j] + "  ");
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+
+        System.out.println("Enter Rows and Cols of Second Matrix");
+        rowS = scanner.nextInt();
+        colS = scanner.nextInt();
+
+        System.out.println("Enter Elements of Second Matrix");
+
+        // Input second matrix from user
+        for (i = 0; i < rowS; i++) {
+            for (j = 0; j < colS; j++) {
+                second[i][j] = scanner.nextInt();
+            }
+        }
+
+        System.out.print("The Second Matrix is :\n");
+        for (i = 0; i < rowS; i++) {
+            for (j = 0; j < colS; j++) {
+                System.out.print(second[i][j] + "  ");
+            }
+            System.out.print("\n");
+        }
+        System.out.print("\n");
+
+        // Multiplying two matrices
+        for (i = 0; i < rowF; i++) {
+            for (j = 0; j < colF; j++) {
+                for (k = 0; k < colS; k++) {
+                    product[i][j] += first[i][k] * second[k][j];
+                }
+            }
+        }
+
+        // Printing Product Matrix
+        System.out.println("Product Matrix");
+        for (i = 0; i < rowF; i++) {
+            for (j = 0; j < colS; j++) {
+                System.out.print(product[i][j] + " ");
+            }
+            System.out.print("\n");
+        }
+    }
+}
+
+```
 
 ## Per Week Challenges Code
 
