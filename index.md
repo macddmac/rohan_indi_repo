@@ -4,9 +4,6 @@
 - Explanation: Uses for loops to multiply matrices 
 ```java
 
-package practice;
-import java.util.Scanner;
-
 public class MatrixMultiplication {
     public static void main(String[] args) {
         int i, j, k, rowF, rowS, colF, colS;
